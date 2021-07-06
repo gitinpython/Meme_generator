@@ -40,5 +40,10 @@ Each of the above modules will also contain an "__init__.py" file which allows i
 - It also fetches an image from a user submitted URL, with the help of requests package in Python 
 
 ## Output Folders
-- **tmp:** Will store the output images aka memes from CLI terminal. Sample output images saved after running this repo
-- **static:** Will store the output images aka memes generated from web service. Sample output images saved after running this repo
+Sample output images or memes were generated after running the scripts - "app.py" & "meme.py" , and were stored in below folders. 
+- **tmp:** Will store the output images aka memes from CLI terminal when "meme.py" script is run  
+- **static:** Will store the output images aka memes generated from web service when "app.py" script is run
+
+# Requirements.txt
+This file contains the complete list of python dependencies used throughout this project
+
