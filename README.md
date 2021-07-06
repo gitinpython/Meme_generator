@@ -25,10 +25,6 @@ This repo includes many folders which are described as below:
 
 Each of the above modules will also contain an "__init__.py" file which allows interaction between submodules within the main module. 
 
-### Output Folders
-- **tmp:** Will store the output images aka memes from CLI terminal. Sample output images saved after running this repo
-- **static:** Will store the output images aka memes generated from web service. Sample output images saved after running this repo
-
 ## Package our Application
 ### meme.py 
 - Create a CLI tool that is invoked by "meme.py" script. The script returns a path to a generated image that is generated using Quote Engine & Meme Engine modules. 
@@ -43,3 +39,6 @@ Each of the above modules will also contain an "__init__.py" file which allows i
 - The app uses the Quote Engine Module and Meme Generator Modules to generate a random captioned image. 
 - It also fetches an image from a user submitted URL, with the help of requests package in Python 
 
+## Output Folders
+- **tmp:** Will store the output images aka memes from CLI terminal. Sample output images saved after running this repo
+- **static:** Will store the output images aka memes generated from web service. Sample output images saved after running this repo
